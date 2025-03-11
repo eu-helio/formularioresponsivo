@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Validação</title>
+    <script src="https://unpkg.com/validator@latest/validator.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+
+<body class="body">
+    <div class="form">
+        <div id="board1" class="board">
+            <h1 class="nomeformulario">Formulário de Validação</h1>
+            <div class="separador"></div>
+
+            <h4 class="nome">Nome:<b class="asterisco">*</b></h4>
+            <p></p>
+            <input required minlength="3" class="nomebox" placeholder="Digite seu nome" id="nomebox1" type="text">
+
+            <h4 class="email">Email:<b class="asterisco">*</b></h4>
+            <input required minlength="9" type="email" placeholder="Digite seu email" class="email" id="email">
+
+            <h4 "  class=" senha">Senha:<b class="asterisco">*</b></h4>
+            <input type="password" id="inputsenha" placeholder="Digite sua senha" class="senhabox">
+
+            <h4 class="situacao">Situação de trabalho:<b class="asterisco">*</b></h4>
+            <p></p>
+            <select required id="selectholder" class="select">
+                <option></option>
+
+                <option>Trabalhando</option>
+                <option>Desempregado</option>
+                <option>Autonomo</option>
+            </select>
+            <p></p>
+
+            <h4 class="mensagem">Mensagem:</h4>
+            <textarea name="text" class="msgbox" id=""></textarea>
+            <p></p>
+            <h3 id="aviso" class="aviso">As opções com <b class="asterisco">*</b> são obrigatórias</h3>
+
+
+            <button class="enviar" onclick="validadoresemailnome()" type="button"> Enviar </button>
+            <img class="loading" src="/assets/img/loading.png" alt="">
+
+
+        </div>
+
+        <div class="enviadocomsucesso">
+            <h3 class="enviado">Formulário enviado com sucesso!</h3>
+
+            <img src="/assets/img/mailcheck.png" alt="" class="emailcheck">
+            <button class="voltar" onclick="voltar()" type="button"> Voltar </button>
+        </div>
+    </div>
+
+
+
+
+    <script src="./assets/js/scripts.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
