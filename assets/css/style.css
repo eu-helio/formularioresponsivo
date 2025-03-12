@@ -65,12 +65,12 @@
 
 
 .enviadocomsucesso{
-    display: flex !important;
+    display: none !important ;
     flex-direction: column !important;
     justify-content: center !important;
     align-items: center !important;
     gap: 10px !important;
-    display: none !important ;
+    
 
     
 
