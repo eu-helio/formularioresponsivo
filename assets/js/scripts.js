@@ -81,7 +81,7 @@ function sendemail() {
     function posloading() {
         loading.style.display = 'none'
         conteudo.style.display = 'none'
-        enviadocomsucesso.style.display = 'flex'
+        enviadocomsucesso.style.display = 'block'
         enviar.style.display = 'block'
 
     }
