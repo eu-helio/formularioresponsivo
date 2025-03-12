@@ -1,13 +1,13 @@
 .container {
-    display: flex;
-    height: 70%;
-    width: 100px;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    background-color: #ebdfcc;
-    border: 1px solid #ccc;
-    border-radius: 10px;
+    display: flex !important;
+    height: 70% !important;
+    max-width: 70% !important;
+    justify-content: center !important;
+    align-items: center !important;
+    flex-direction: column !important;
+    background-color: #ebdfcc!important;
+    border: 1px solid #ccc !important;
+    border-radius: 10px!important ;
     
 
     
@@ -15,62 +15,62 @@
 .conteudo{
     
     
-    width: 300px;
+    width: 300px !important;
 }
 
 .separador{
-    position: relative;
-    top: -4px;
-    background-color: #02031d;
-    height: 8px ;
+    position: relative!important;
+    top: -4px !important;
+    background-color: #02031d !important;
+    height: 8px !important ;
   
  
    
 }
 
 .btn-send {
-    align-content: center;
-    display: flex;
-    justify-content: center;
+    align-content: center!important ;
+    display: flex !important;
+    justify-content: center !important ;
 
 }
 
 .enviar {
-    width: 100px;
-    height: 40px;
-    border-radius: 5px;
-    border-width: 0px;
-    background-color: #b10c43;
-    color: #ebdfcc;
-    font-style: bold;
+    width: 100px !important;
+    height: 40px !important;
+    border-radius: 5px !important;
+    border-width: 0px !important;
+    background-color: #b10c43 !important;
+    color: #ebdfcc !important;
+    font-style: bold !important ;
 
 }
 
 .btn-back{
-    width: 100px;
-    border-radius: 5px;
-    border-width: 0px;
-    background-color: #b10c43;
-    color: #ebdfcc;
-    font-style: bold;
+    width: 100px !important;
+    border-radius: 5px !important;
+    border-width: 0px !important;
+    background-color: #b10c43 !important;
+    color: #ebdfcc !important;
+    font-style: bold !important;
 
 }
 
 
 .aviso{
-    font-size: 10px;
-    
+    font-size: 10px !important;
+     
 }
 
 
 
 .enviadocomsucesso{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    display: none;
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+    align-items: center !important;
+    gap: 10px !important;
+    display: none !important;
 
     
 
@@ -86,9 +86,9 @@
 .senhabox,
 .select,
 .msgbox {
-    width: 300px;
-    border-radius: 5px;
-    border-width: 1px;
+    width: 300px !important;
+    border-radius: 5px !important;
+    border-width: 1px !important;
     
 }
 
@@ -96,7 +96,7 @@
 .nomebox::placeholder,
 .email::placeholder,
 .senhabox::placeholder {
-    font-size: 13px;
+    font-size: 13px !important;
 
 
 
@@ -122,21 +122,21 @@
 
 
 .loading {
-    height: 50px;
-    position: relative;
-    animation: loading 2s linear infinite;
-    display: none;
+    height: 50px !important;
+    position: relative !important;
+    animation: loading 2s linear infinite !important;
+    display: none !important;
     
     
 
-    margin: 0 0 0 -25px;
-
+    margin: 0 0 0 -25px !important;
+ 
 
 }
 
 .emailcheck {
-    animation: aparecer 2s linear;
-    height: 100px;
+    animation: aparecer 2s linear !important;
+    height: 100px !important;
     
     
 
