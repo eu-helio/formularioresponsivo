@@ -65,11 +65,11 @@
 
 
 .enviadocomsucesso{
-    display: none !important ;
-    flex-direction: column !important;
-    justify-content: center !important;
-    align-items: center !important;
-    gap: 10px !important;
+    display: none ;
+    flex-direction: column ;
+    justify-content: center ;
+    align-items: center ;
+    gap: 10px ;
     
 
     
