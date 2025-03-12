@@ -1,7 +1,8 @@
 .container {
     display: flex !important;
     height: 70% !important;
-    max-width: 70% !important;
+    max-width: 375px !important;
+    height: 375px !important;
     justify-content: center !important;
     align-items: center !important;
     flex-direction: column !important;
