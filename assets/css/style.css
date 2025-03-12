@@ -70,7 +70,7 @@
     justify-content: center !important;
     align-items: center !important;
     gap: 10px !important;
-    display: none !important;
+    display: none ;
 
     
 
@@ -122,21 +122,21 @@
 
 
 .loading {
-    height: 50px !important;
-    position: relative !important;
-    animation: loading 2s linear infinite !important;
-    display: none !important;
+    height: 50px ;
+    position: relative ;
+    animation: loading 2s linear infinite ;
+    display: none ;
     
     
 
-    margin: 0 0 0 -25px !important;
+    margin: 0 0 0 -25px ;
  
 
 }
 
 .emailcheck {
-    animation: aparecer 2s linear !important;
-    height: 100px !important;
+    animation: aparecer 2s linear ;
+    height: 100px ;
     
     
 
