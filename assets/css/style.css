@@ -1,0 +1,175 @@
+.container {
+    display: flex;
+    height: 70%;
+    width: 100px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #ebdfcc;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    
+
+    
+}
+.conteudo{
+    
+    
+    width: 300px;
+}
+
+.separador{
+    position: relative;
+    top: -4px;
+    background-color: #02031d;
+    height: 8px ;
+  
+ 
+   
+}
+
+.btn-send {
+    align-content: center;
+    display: flex;
+    justify-content: center;
+
+}
+
+.enviar {
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    border-width: 0px;
+    background-color: #b10c43;
+    color: #ebdfcc;
+    font-style: bold;
+
+}
+
+.btn-back{
+    width: 100px;
+    border-radius: 5px;
+    border-width: 0px;
+    background-color: #b10c43;
+    color: #ebdfcc;
+    font-style: bold;
+
+}
+
+
+.aviso{
+    font-size: 10px;
+    
+}
+
+
+
+.enviadocomsucesso{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    display: none;
+
+    
+
+}
+
+
+
+
+
+
+.nomebox,
+.email,
+.senhabox,
+.select,
+.msgbox {
+    width: 300px;
+    border-radius: 5px;
+    border-width: 1px;
+    
+}
+
+
+.nomebox::placeholder,
+.email::placeholder,
+.senhabox::placeholder {
+    font-size: 13px;
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.loading {
+    height: 50px;
+    position: relative;
+    animation: loading 2s linear infinite;
+    display: none;
+    
+    
+
+    margin: 0 0 0 -25px;
+
+
+}
+
+.emailcheck {
+    animation: aparecer 2s linear;
+    height: 100px;
+    
+    
+
+
+}
+
+@keyframes loading {
+    from {
+        rotate: 1deg;
+
+    }
+
+    to {
+        rotate: 360deg;
+    }
+
+
+}
+
+@keyframes blink {
+    to {
+        visibility: hidden;
+    }
+}
+
+@keyframes aparecer {
+    from {
+        opacity: 0%;
+
+    }
+
+    to {
+        opacity: 100%;
+    }
+
+}
