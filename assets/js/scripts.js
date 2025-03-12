@@ -76,13 +76,13 @@ function alerta() {
 
 function sendemail() {
 
-    enviar.style.display = 'none'
-    loading.style.display = 'block'
+    enviar.style.display = 'none !important '
+    loading.style.display = 'block !important '
     function posloading() {
-        loading.style.display = 'none'
-        conteudo.style.display = 'none'
-        enviadocomsucesso.style.display = 'flex'
-        enviar.style.display = 'block'
+        loading.style.display = 'none !important'
+        conteudo.style.display = 'none !important'
+        enviadocomsucesso.style.display = 'flex !important'
+        enviar.style.display = 'block !important'
 
     }
 
@@ -92,7 +92,7 @@ function sendemail() {
 }
 
 function voltar() {
-    enviadocomsucesso.style.display = 'none'
-    conteudo.style.display = 'block'
+    enviadocomsucesso.style.display = 'none !important '
+    conteudo.style.display = 'block !important'
 
 }
